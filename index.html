@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel agency</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap core CSS and icons-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,17 +21,65 @@
   <body>
     <!--header-->
     <header>
-      <nav>
-        <p>VENTURE TRAVELERS</p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+      <nav class="navbar bg-dark fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+          <p class="navbar-brand fw-bold">VENTURE TRAVELERS</p>
+
+          <div id="mainNavbar" class="navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#destinations">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#tours">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
+    <!--hero section-->
+    <section
+      id="home"
+      class="hero d-flex align-items-center text-center text-white"
+    >
+      <div class="container position-relative">
+        <div class="hero-content mx-auto">
+          <h1 class="display-4 fw-bold">Start Your Next Adventure</h1>
+          <p class="lead mb-4">
+            Handpicked journeys, timeless memories, effortless escapes
+          </p>
+          <a href="#destinations" class="btn btn-primary btn-lg"
+            >Explore Destinations</a
+          >
+        </div>
+      </div>
+    </section>
+
     <!--main content-->
-    <main></main>
+    <main>
+      <!--destinations-->
+      <section id="destinations" class="py-5 bg-light">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col text-center">
+              <h2 class="fw-bold">Leading Destinations</h2>
+              <p class="text-muted">
+                Crafted routes, soulful adventures, and travel made simple.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!--tours-->
+      <section id="tours"></section>
+      <!--contact-->
+      <section id="contact"></section>
+    </main>
     <!--footer-->
     <footer></footer>
   </body>
