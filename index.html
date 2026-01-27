@@ -75,7 +75,7 @@
           <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100 shadow-sm destination-card">
-                <img src="" class="card-img-top" alt="tokyo, japan" />
+                <img src="images/b5e5256dfce652bc5f18d55f75883334.jpg" class="card-img-top" alt="tokyo, japan" />
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title">Tokyo, Japan</h5>
                   <p class="card-text flex-grow-1">
@@ -88,9 +88,9 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100 shadow-sm destination-card">
-                <img src="" class="card-img-top" alt="tokyo, japan" />
+                <img src="images/9489563afebd7bf38cb0729002a3b3ce.jpg" class="card-img-top" alt="bangkok, Thiland" />
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Tokyo, Japan</h5>
+                  <h5 class="card-title">Bangkok, Thiland</h5>
                   <p class="card-text flex-grow-1">
                     Dive in to the marvelous architecture and amazing levels of
                     tech in the land of the rising sun
@@ -101,9 +101,9 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100 shadow-sm destination-card">
-                <img src="" class="card-img-top" alt="tokyo, japan" />
+                <img src="images/66cfc190bc4b5582695c635d0c4fda5f.jpg" class="card-img-top" alt="beijing, china" />
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Tokyo, Japan</h5>
+                  <h5 class="card-title">Beijing, China</h5>
                   <p class="card-text flex-grow-1">
                     Dive in to the marvelous architecture and amazing levels of
                     tech in the land of the rising sun
@@ -116,9 +116,86 @@
         </div>
       </section>
       <!--tours-->
-      <section id="tours"></section>
+
       <!--contact-->
-      <section id="contact"></section>
+      <section id="contact" class="py-5 bg-light">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col text-center">
+              <h2 class="fw-bold">Contact Us</h2>
+              <p class="text-muted">
+                Tell us about your desired travel destination
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+              <form class="card shadow-sm p-4">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="First Second"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="yourname@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="destination" class="form-label"
+                      >Destination of Interest</label
+                    >
+                    <select id="destination" class="form-select" required>
+                      <option value="" selected disabled>
+                        Choose a destination
+                      </option>
+                      <option>Paris, France</option>
+                      <option>Bali, Indonesia</option>
+                      <option>New York, USA</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="dates" class="form-label"
+                      >Preferred Dates</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="dates"
+                      placeholder="e.g. 12–19 Aug 2026"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="4"
+                      placeholder="Tell us more about your trip..."
+                    ></textarea>
+                  </div>
+                  <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-primary">
+                      Send Inquiry
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--footer-->
     <footer class="py-4 bg-dark text-white">
