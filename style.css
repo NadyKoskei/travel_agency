@@ -1,18 +1,29 @@
 .navbar {
   backdrop-filter: saturate(120%) blur(6px);
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
 }
 
 .navbar .nav-link:hover {
-  color: #ff5722;
+  color: #71ee99;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .navbar .nav-link {
   transition: color 0.2s ease-in-out; /* smoother hover */
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  font-size: 0.95rem;
 }
 
 .hero {
-  min-height: 80vh;
-  background-image: url("images/hero.jpg");
+  min-height: 85vh;
+  background-image: url("images/10fcca93007219f3f18c5e7d12ebd845.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -32,7 +43,9 @@
 }
 
 .destination-card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease; /* lift on hover */
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease; /* lift on hover */
 }
 .destination-card:hover {
   transform: translateY(-4px);
