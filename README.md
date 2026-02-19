@@ -1,10 +1,10 @@
 # Venture Travelers — Travel Agency Web App
 
+[view live demo] (https://travel-agency-ebon.vercel.app/)
+
 Welcome to Venture Travelers — a small, delightful web application that packages adventure into curated tours, travel planning deals, and unforgettable escapes. Thoughtfully designed for browsers and humans alike, this project showcases beautiful hero imagery, destination cards, and an easy-to-use flow for exploring trips.
 
-## ✨ Tagline
-
-Handpicked journeys. Timeless memories. Effortless planning.
+I used this to practice styling with bootstrap.
 
 ## What it is
 
